@@ -1,0 +1,32 @@
+body{
+    background-color: darkgrey;
+}
+
+header{
+    background-color: aqua;
+    padding: 3%;
+}
+
+.logo{
+    background-color: yellow;
+}
+
+nav{
+    background-color: cornflowerblue;
+}
+
+main{
+    background-color: green;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section{
+    background-color: pink;
+}
+
+footer{
+    background-color: purple;
+    padding: 3%;
+}
