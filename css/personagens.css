@@ -1,0 +1,38 @@
+p{
+    color: white;
+    line-height: 1.5;
+    width: 10;
+    font-size: 200%;
+    padding: 3%;
+
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    font-size: 2em;
+    color: white;
+    margin-top: 10px;
+}
+
+.titulos{
+    line-height: 2;
+    text-align: center;
+    font-weight: bold;
+}
+
+figure{
+    text-align: center;
+    display: inline-block;
+}
+
+.caixa-imagem{
+    text-align: center;
+    margin-top: 1%;
+}
+
+figcaption{
+    color: white;s
+}
