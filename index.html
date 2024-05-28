@@ -14,12 +14,14 @@
             <img src="img/levi.png" alt="" style="width: 260px; height: 150px;">
         </div>
         <nav id="menu">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
             <ul>
-                <li><a href="#">Origem do anime</a></li>
-                <li><a href="his.html">Historia</a></li>
-                <li><a href="perso.html">Personagens</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#" onclick="document.getElementById('menu-toggle').click()">Origem do anime</a></li>
+                <li><a href="his.html"  onclick="document.getElementById('menu-toggle').click()">Historia</a></li>
+                <li><a href="perso.html"  onclick="document.getElementById('menu-toggle').click()">Personagens</a></li>
+                <li><a href="#"  onclick="document.getElementById('menu-toggle').click()">Sobre</a></li>
+                <li><a href="#"  onclick="document.getElementById('menu-toggle').click()">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -46,7 +48,6 @@ A popularidade de "Attack on Titan" se deve em grande parte à sua narrativa emo
 
     </main>
     <footer class="rodape">
-        <a href="his,html">Voltar</a>
         <p>Criado por Julio Cesar</p>
     </footer>
 </body>
